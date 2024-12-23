@@ -2,18 +2,24 @@
 
 ### Setup Environment - Anaconda
  ```
-$ conda create --name main-ds python=3.9
-$ conda activate main-ds
-$ pip install -r requirements.txt
+conda create --name main-ds python=3.13.0
+conda activate main-ds
+pip install -r requirements.txt
  ```
-1. Install the requirements
+
+### Setup Environment - Matplotlib, Seaborn, Scikit-learn, Streamlit
+```
+pip install pandas numpy matplotlib seaborn scikit-learn streamlit
+```
+
+### Install the requirements
 
    ```
-   $ pip install -r requirements.txt
+pip install -r requirements.txt
    ```
 
-2. Run the app
+### Run the streamlit
 
    ```
-   $ streamlit run streamlit_app.py
+streamlit run Python.py
    ```
